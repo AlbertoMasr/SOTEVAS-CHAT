@@ -1,10 +1,6 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import HomePage from './HomePage';
 
-const App = () => (
-  <SafeAreaView>
-    <Text>Hello, SOTEVAS-CHAT!</Text>
-  </SafeAreaView>
-);
+const App = () => <HomePage />;
 
 export default App;
